@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Test1</title>
+</head>
+<body>
+<script type="text/javascript">
+    
+    var count =0;
+    function check(arr,number) {
+
+        for ( i=0; i<arr.length; i++ )
+        {
+            if ( arr[i]== number ) 
+            {
+                count++;
+                document.write('the number ' + arr[i] + ' at position :' + i +'<br>');
+            }
+        }
+        return count;
+    }
+    
+    var mang = [];
+    check(mang,1);
+    document.write('so lan number xuat hien trong mang :' +count);
+</script>
+</body>
+</html>
